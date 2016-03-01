@@ -1,0 +1,24 @@
+create table empty (empty,empty);
+create table empty (empty);
+print empty;
+load students;
+load enrolled;
+load schedule;
+insert empty values 'not', 'empty', 'any', 'longer';
+print empty;
+create table full as select students.Lastname as last, students.Lasttname as last from students;
+create table full as select students.Firstname as first, students.Firstname as first1 from students;
+print full;
+store full;
+load full;
+create table full as select enrolled.CCN as code, Num, Dept, Grade from enrolled, schedule where Num = "61A" and			enrolled.CCN = schedule.CCN;
+print full;
+select students.SID as SID, Lastname, Num from schedule, students where students.Major = schedule.Dept;
+select students.SID as SID, Lastname, Num from schedule, students where students.Major = schedule.Dept and SemEnter 		!=2003;
+quit;
+
+
+
+
+
+

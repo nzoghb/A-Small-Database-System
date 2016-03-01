@@ -1,0 +1,41 @@
+DB61B System.  Version 1.0
+Error: Table contains duplicate
+Contents of empty:
+Loaded students.db
+Loaded enrolled.db
+Loaded schedule.db
+Contents of empty:
+  not empty any longer
+Error: Table contains duplicate
+Contents of full:
+  Jason Jason
+  Valerie Valerie
+  Jonathan Jonathan
+  Thomas Thomas
+  Shana Shana
+  Yangfan Yangfan
+Stored full.db
+Loaded full.db
+Contents of full:
+  21231 61A EECS A
+  21228 61A EECS A-
+Search results:
+  101 Knowles 61B
+  104 Armstrong 61B
+  105 Brown 61B
+  102 Chan 54
+  101 Knowles 61A
+  104 Armstrong 61A
+  105 Brown 61A
+  101 Knowles 61A
+  104 Armstrong 61A
+  105 Brown 61A
+  101 Knowles 61B
+  104 Armstrong 61B
+  105 Brown 61B
+  102 Chan 54
+Search results:
+  105 Brown 61B
+  105 Brown 61A
+  105 Brown 61A
+  105 Brown 61B
